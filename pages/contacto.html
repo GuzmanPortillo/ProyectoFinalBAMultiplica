@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/disenoweb.png" type = "image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body clas="Estilobody">
+    <form action="" method=""> <!--action:para indicar adonde enviar, method:como se van a procesar esos datos, en JS-->
+
+        <div class = "presupuesto">
+        <fieldset class="contenedor-form">
+
+            <legend>Solicitar información</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" placeholder="Escribir nombre">
+            <br>
+            <label for="Telefono">Telefono</label>
+            <input type="number" name="Telefono" id="telefono">
+            <br>
+            <label for="E-mail">E-mail*</label>
+            <input type="email" name="E-mail" id="Email" required>
+            <br>
+            <label for="Nombre">Comentarios</label>
+            <input type="textbox" name="Comentarios">
+            <br>
+            <label for="Provincia">Provincia</label>
+            <select>
+                <option value="">Buenos aires</option>
+                <option value="">Ciudad Autónoma de Buenos Aires</option>
+                <option value="">Catamarca</option>
+                <option value="">Chaco</option>
+                <option value="">Chubut</option>
+                <option value="">Córdoba</option>
+                <option value="">Corrientes</option>
+                <option value="">Entre Ríos</option>
+                <option value="">Formosa</option>
+                <option value="">Jujuy</option>
+                <option value="">La Pampa</option>
+                <option value="">La Rioja</option>
+                <option value="">Mendoza</option>
+                <option value="">Misiones</option>
+                <option value="">Neuquén</option>
+                <option value="">Río Negro</option>
+                <option value="">Salta</option>
+                <option value="">San Juan</option>
+                <option value="">San Luis</option>
+                <option value="">Santa Cruz</option>
+                <option value="">Santa Fe</option>
+                <option value="">Santiago del Estero</option>
+                <option value="">Tierra del Fuego</option>
+                <option value="">Tucumán</option>
+            </select>
+            <br>
+
+            <div class="terminosyCond">
+                Acepta terminos y condiciones
+                <input type="checkbox" name="terminosYcondiciones" id="terminosYcondiciones" value="yes">                
+            </div>
+            <button type="button" onclick="enviarSolicitud()">Enviar solicitud</button>
+
+        </fieldset>
+
+    </div>
+    </form>
+    <section class="Inicio-card">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <p class="card-text">Muchas gracias por contactarnos!!!</p>
+                <a href="../index.html" class="btn btn-primary">Volver a inicio</a>
+            </div>
+        </div>
+    </section>
+
+    <script src = "../js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>

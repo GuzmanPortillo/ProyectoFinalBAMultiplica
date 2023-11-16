@@ -1,0 +1,294 @@
+body{
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*
+p {
+  font-size: 20px;
+}
+p.logo {
+  font-size: 10px;
+}*/
+/*
+ul{
+  display: flex;
+}*/
+/*
+h1{
+  font-size: 60px;
+  margin: 0;
+}
+h2{
+  font-size: 25px;
+  margin-bottom: 40px;
+}*/
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.menu ul{
+  list-style: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titular{
+  text-align: center;
+  margin-top: 100px;
+}
+.titular h1{
+  color: white;
+  padding: 100px 0;
+}
+
+header li{
+  list-style: none;
+  margin-right: 25px;
+}
+header a{
+  font-size: 14px;
+  background: #5cb8ff;
+  padding:10px 30px 10px 30px;
+  color: white;
+  padding-right: 20px;
+}
+header p{
+  font-size: 30px;
+  color: black;
+}
+header{
+  background: url(../assets/Fondo2.png);
+  background-size:contain;
+  background-position: center;
+  height: 50vh;
+  color: #000;
+}
+header nav ul li {
+  margin-bottom: 15px;
+}
+
+.contenedor-titulo a, #sobre-mi a, #contacto input[type="submit"] {
+  font-size: 14px;
+  color: #fff;
+  background: #5cb8ff;
+  padding: 14px 24px;
+  padding: 90px 0;
+  width: 128px;
+  display: inline-block;
+}
+
+#mis-trabajos, #sobre-mi {
+  padding: 60px 0;
+}
+
+.contenedor{
+max-width: 1280px;
+width: 90%;
+margin: auto;
+}
+
+
+h3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-sobremi {
+display: flex;
+justify-content: space-around;
+align-items: center;
+box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+}
+.contenedor-parrafo{
+  width: 42%;
+}
+.contenedor-parrafo p {
+  font-size: 20px;
+}
+.parrafo-final{
+  margin-bottom: 30px;
+}
+
+/*************************************Servicios desde aca*****************************************************/
+.contenedor-servicios{
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+}
+.servicio{
+  width: 25%;
+  padding: 50px 38px 50px 38px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.contenedor-servicios .violeta {
+  background: #5055df;
+  box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+}
+.contenedor-servicios .celeste {
+  background: #40a8f9;
+  box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+
+.servicio h4{
+  font-size: 30px;
+}
+.servicio img{
+  float: right;
+  margin: o;
+}
+.servicio p{
+  font-size: 18px;
+  height: 200px; /*Altura de los iconos de la seccion de servicios*/
+}
+/****************************************Servicios hasta aca***********************************/
+
+/*********************************Mis trabajos desde ava aca***********************************/
+#mis-trabajos p {
+  text-align: center;
+  color: #000;
+  
+}
+#mis-trabajos{
+  background-color: #5cb8ff;
+  align-items: center;
+  padding: 40px;
+  box-shadow: 0 12px 30px 0 rgba(86, 163, 222, .3);
+}
+/********************************Mis trabajos hasta aca******************************************/
+
+/********************************Carrusel desde aca**********************************************/
+button.owl-prev, button.owl-next {
+  font-size: 20px !important;
+}
+
+span {
+  color: white;
+  font-size: 40px;
+}
+/********************************Carrusel hasta aca**********************************************/
+
+/**************************************Responsive design desde aca*******************************/
+@media (max-width: 800px) {
+
+  .menu-icon {
+  display: block;
+  float: right;
+  width: 37px;
+  height: 25px;
+  margin-top: 0px;
+  }}
+/**************************************Responsive design hasta aca*******************************/
+  
+/***************************************Desde aca FOOTER******************************************/
+.footer {
+  display:flex;
+  background-color:#fff;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.footer p{
+  color: #000;
+  text-decoration: underline;
+}
+/***************************************Hasta aca FOOTER**************************************/
+
+#whatsapp {
+  position: fixed;
+  top: 80%;
+  right: 1%;
+}
+/*
+#Redes{
+  align-items: center;
+}*/
+
+/****************************************Formulario contacto desde aca************************/
+.presupuesto{
+  background-color: #5cb8ff;
+  padding: 90px 0;
+  box-shadow: 0 12px 30px 0 rgba(80, 85, 223, .37);
+} 
+.contenedor-form{
+  text-align: center;
+  padding: 20px;;
+
+}
+.contenedor-form button{
+  font-size: 14px;
+  background:darkslateblue;
+  padding:10px 30px 10px 30px;
+  color: white;
+  padding-right: 20px;
+}
+.contenedor-form select{
+  margin: 10px;
+  border-style:hidden;
+}
+.presupuesto label{
+  margin: 10px;
+  color:darkmagenta;
+  font-size: 20px;
+}
+.presupuesto input{
+  margin: 10px;
+  border-style:hidden;
+  
+}
+.terminosyCond{
+  margin: 10px;
+  color: white;
+  text-decoration: underline;
+
+}
+.presupuesto legend{
+  font-size: 14px;
+  background: #5cb8ff;
+  color: white;
+}
+.presupuesto label provincia{
+  margin: 5px;
+}
+.presupuesto input provincia{
+  margin: 5px;
+}
+.presupuesto legend{
+  font-size: 60px
+}
+.Estilobody{
+  background-color: burlywood;
+  padding: 100px;
+}
+.card{
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+}
+.card-body a{
+  font-size: 14px;
+  background: #5cb8ff;
+  padding:10px 30px 10px 30px;
+  color: white;
+  padding-right: 20px;
+}
+.Inicio-card{
+  background-color:gainsboro;
+  height: 30vh;
+
+}
+/****************************************Formulario hasta aca*********************************/
